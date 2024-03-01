@@ -40,7 +40,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/jqtmviyu/PhoneServerBlog' }],
   },
   vite: {
-    assetsInclude: ['**/*.jpg', '**/*.png', '**/*.gif', '**/*.zip', '**/*.pdf'],
+    assetsInclude: ['**/*.jpg', '**/*.png', '**/*.gif', '**/*.zip', '**/*.pdf','**/*.webp'],
   },
   ignoreDeadLinks: true,
 })

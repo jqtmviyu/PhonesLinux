@@ -18,11 +18,19 @@ hero:
       link: /openwrt/
 
 features:
-  - title: 随身wifi(410)
-    details: 图片A
-  - title: 红米note4x(625)
-    details: 图片B
-  - title: openwrt(410)
-    details: 图片C
+  - icon: 📱
+    title: 红米note4x(625)
+    details: 
+  - icon: 📶
+    title: 随身wifi(410)
+    details: 
+  - icon: 📶
+    title: openwrt(410)
+    details: 
 ---
-
+<br/>
+<div style="display: flex;justify-content: space-around;">
+<img src="./public/mido.jpg"  width="31%"/>
+<img src="./public/410.png"  width="31%"/>
+<img src="./public/openwrt.jpg"  width="31%"/>
+</div>
