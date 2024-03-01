@@ -1,0 +1,10 @@
+# Set default behavior for text files
+* -text
+
+# Explicitly specify files that should be treated as binary
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Specify that Markdown files should be treated as binary and not undergo automatic line ending conversion
+*.md binary
