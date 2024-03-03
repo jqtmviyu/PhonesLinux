@@ -4,7 +4,7 @@ import { getSidebar } from 'vitepress-plugin-auto-sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Phone Server Blog',
+  title: 'Phones Linux',
   description: '手机移植服务器教程',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

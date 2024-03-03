@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Phone Server Blog"
+  name: "Phones Linux"
   text: ""
   tagline: 410/625/821/...等手机移植linux服务器
   actions:
