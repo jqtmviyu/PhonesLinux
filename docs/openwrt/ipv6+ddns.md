@@ -111,7 +111,7 @@ reboot
 1. 添加新的接口, 名称填 wwan6 (原来ipv4的接口是wwan), 协议选 dhcpv6, 设备选 接口别名@wwan
 2. 请求ipv6地址选 try, 长度选自动
 
-![](https://img.hellohxx.top/202311230342036.png)  
+![](https://img.hellohxx.top/202403031704763.png)
 
 3. 高级设置, 委托前缀打勾, 分配长度禁用
 
@@ -135,7 +135,7 @@ reboot
 ![](https://img.hellohxx.top/202311230348839.png)
 3. 最终如图所示
 
-![](../assets/Pasted%20image%2020231123035753.png)
+![](https://img.hellohxx.top/202403031659002.png)
 
 #### dhcp服务器
 
@@ -175,7 +175,7 @@ reboot
 
 4. 先改下端口, 不要用默认的`[::]:1`
 
-![](../assets/Pasted%20image%2020231123031728.png)
+![](https://img.hellohxx.top/202403031658866.png)
 
 5. dns选择 cloudflare, 需要到 cloudflare 设置 token
 
@@ -183,7 +183,7 @@ reboot
 
 ![](https://img.hellohxx.top/202311230318454.png)
 
-![](../assets/Pasted%20image%2020231123032346.png)  
+![](https://img.hellohxx.top/202403031658603.png)  
 
 ### 钩子脚本(openwrt)
 
