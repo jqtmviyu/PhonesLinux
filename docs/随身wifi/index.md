@@ -1,3 +1,4 @@
 # 导航
 
-* [OpenStick项目](./OpenStick项目/)
+* pc用户看左边👈侧边栏
+* 手机用户点左上角👆Menu
