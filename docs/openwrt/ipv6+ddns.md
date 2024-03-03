@@ -185,7 +185,9 @@ reboot
 
 ![](../assets/Pasted%20image%2020231123032346.png)  
 
-### ddns-shell
+### 钩子脚本(openwrt)
+
+> 只有接口发生变化时才运行, 而不是定时运行
 
 https://developers.cloudflare.com/api/operations/dns-records-for-a-zone-update-dns-record
 
@@ -356,7 +358,9 @@ curl -X GET "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?nam
 -H "Content-Type: application/json"
 ```
 
-###  ddns-ubuntu
+###  钩子脚本(ubuntu)
+
+> 只有接口发生变化时才运行, 而不是定时运行
 
 https://appscross.com/2023/09/one-click-ddns6-for-linux/
 
