@@ -318,3 +318,13 @@ BOARD_TAGS_OFFSET 00000100
 ## 内核开启smb功能
 
 `cifs utf8`
+
+## 切换OTG主从模式
+
+```sh
+# 625可以这样切主从
+# 主机模式：
+echo host > /sys/kernel/debug/usb/7000000.usb/mode
+# 从设备模式
+echo device > /sys/kernel/debug/usb/7000000.usb/mode
+```
