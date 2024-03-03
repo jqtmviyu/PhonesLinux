@@ -185,45 +185,6 @@ reboot
 
 ![](../assets/Pasted%20image%2020231123032346.png)  
 
-## ipv4访问ipv6
-
-利用 cloudflare的cdn, 要开启小云朵
-
-ipv4 --> cloudflare CDN --> ipv6
-
-https://mymuwu.net/?p=489
-
-```sh
-# http 能走cdn的端口
-80 8080 8880 2052 2082 2086 2095
-# https 能走cdn的端口
-443  2053  2083  2087  2096  8443
-```
-
-### 路由器设置
-
-1. 防火墙放行对应的ipv6端口
-
-网络 -- 防火墙 -- 通信规则
-
-![](https://img.hellohxx.top/202311230331984.png)  
-
-2. 端口转发
-
-安装 `luci-i18n-socat-zh-cn`
-
-添加端口转发, 把ipv6转发到ipv4地址的端口
-安装完第一次添加状态是x, 重启下 socat 和 firewall 服务
-也可以转发到局域网设备的端口, 这样局域网设备虽然也有ipv6, 但不用ddns, 只需要路由转发就够了
-
-![](https://img.hellohxx.top/202311230332967.png)  
-
-3. 这样访问时还需要在域名后添加 2052 端口, 利用 cloudflare 的规则可以自动添加
-
-规则 --> Origin Rules --> 创建规则 --> 自定义筛选表达式 --> 主机名等于 --> 重写端口到2052
-
-cloudflare ddns 脚本
-
 ### ddns-shell
 
 https://developers.cloudflare.com/api/operations/dns-records-for-a-zone-update-dns-record
@@ -544,6 +505,45 @@ else
     fi
 fi
 ```
+
+## ipv4访问ipv6
+
+利用 cloudflare的cdn, 要开启小云朵
+
+ipv4 --> cloudflare CDN --> ipv6
+
+https://mymuwu.net/?p=489
+
+```sh
+# http 能走cdn的端口
+80 8080 8880 2052 2082 2086 2095
+# https 能走cdn的端口
+443  2053  2083  2087  2096  8443
+```
+
+### 路由器设置
+
+1. 防火墙放行对应的ipv6端口
+
+网络 -- 防火墙 -- 通信规则
+
+![](https://img.hellohxx.top/202311230331984.png)  
+
+2. 端口转发
+
+安装 `luci-i18n-socat-zh-cn`
+
+添加端口转发, 把ipv6转发到ipv4地址的端口
+安装完第一次添加状态是x, 重启下 socat 和 firewall 服务
+也可以转发到局域网设备的端口, 这样局域网设备虽然也有ipv6, 但不用ddns, 只需要路由转发就够了
+
+![](https://img.hellohxx.top/202311230332967.png)  
+
+3. 这样访问时还需要在域名后添加 2052 端口, 利用 cloudflare 的规则可以自动添加
+
+规则 --> Origin Rules --> 创建规则 --> 自定义筛选表达式 --> 主机名等于 --> 重写端口到2052
+
+cloudflare ddns 脚本
 
 ## ipv4优先
 
