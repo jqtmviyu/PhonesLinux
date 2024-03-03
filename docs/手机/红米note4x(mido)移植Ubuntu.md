@@ -2,22 +2,22 @@
 
 参考链接:
 
-Pmbootstrap 相关:
-https://wiki.postmarketos.org/wiki/Xiaomi_Redmi_Note_4_(xiaomi-mido)
-https://wiki.postmarketos.org/wiki/Installation
-https://wiki.postmarketos.org/wiki/Pmbootstrap
+Pmbootstrap 相关:  
+https://wiki.postmarketos.org/wiki/Xiaomi_Redmi_Note_4_(xiaomi-mido)  
+https://wiki.postmarketos.org/wiki/Installation  
+https://wiki.postmarketos.org/wiki/Pmbootstrap  
 
-博客:
-https://blog.csdn.net/github_38345754/article/details/114291930
-https://forum.renegade-project.tech/t/835-845-855-uefi-archlinux/2497
-https://forum.renegade-project.tech/t/835-845-855-uefi-ubuntu-rootfs/2891
-https://www.knightli.com/2023/08/09/随身wif-idebian-固件编译/
+博客:  
+https://blog.csdn.net/github_38345754/article/details/114291930  
+https://forum.renegade-project.tech/t/835-845-855-uefi-archlinux/2497  
+https://forum.renegade-project.tech/t/835-845-855-uefi-ubuntu-rootfs/2891  
+https://www.knightli.com/2023/08/09/随身wif-idebian-固件编译/  
 
-视频:
-https://www.bilibili.com/video/BV15N4y127mN/
-https://www.bilibili.com/video/BV13G411Y7u4/
+视频:  
+https://www.bilibili.com/video/BV15N4y127mN/  
+https://www.bilibili.com/video/BV13G411Y7u4/  
 
-名词解释:
+名词解释:  
 https://wiki.postmarketos.org/wiki/Glossary
 
 ## 源码下载

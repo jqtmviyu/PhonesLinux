@@ -37,7 +37,16 @@ export default defineConfig({
       }),
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/jqtmviyu/PhoneServerBlog' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/jqtmviyu/PhonesLinux' }],
+    search: {
+      provider: 'local'
+    },
+    outlineTitle: '页面导航',
+    docFooter: {
+      prev:"上一页",
+      next:"下一页",
+    },
+    outline: {level: [2,6]}
   },
   vite: {
     assetsInclude: ['**/*.jpg', '**/*.png', '**/*.gif', '**/*.zip', '**/*.pdf','**/*.webp'],
