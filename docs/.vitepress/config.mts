@@ -8,6 +8,17 @@ export default defineConfig({
   description: '手机移植服务器教程',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    socialLinks: [{ icon: 'github', link: 'https://github.com/jqtmviyu/PhonesLinux' }],
+    search: {
+      provider: 'local'
+    },
+    outlineTitle: '页面导航',
+    docFooter: {
+      prev:"上一页",
+      next:"下一页",
+    },
+    outline: {level: [2,6]},
+
     nav: [
       { text: '首页', link: '/' },
       { text: '手机', link: '/手机/' },
@@ -36,17 +47,6 @@ export default defineConfig({
         collapsed: true,
       }),
     },
-
-    socialLinks: [{ icon: 'github', link: 'https://github.com/jqtmviyu/PhonesLinux' }],
-    search: {
-      provider: 'local'
-    },
-    outlineTitle: '页面导航',
-    docFooter: {
-      prev:"上一页",
-      next:"下一页",
-    },
-    outline: {level: [2,6]}
   },
   vite: {
     assetsInclude: ['**/*.jpg', '**/*.png', '**/*.gif', '**/*.zip', '**/*.pdf','**/*.webp'],
